@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/stilefirst.css">
+    <link rel="stylesheet" href="css/stiledettaglio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
     <title>Colors</title>
 </head>
 
@@ -18,13 +19,12 @@
     <div id="header"> <span id="text">Colors</span></div>
     <div id="navbar-flex">
         <div class="navbarbtn"><a href="index.html" class="waves-effect waves-light btn grey"><i
-            class="large material-icons">home</i></a></div>
+                    class="large material-icons">home</i></a></div>
         <div class="navbarbtn"><a href="addUtente.html" class="waves-effect waves-light btn grey"> <i
                     class="large material-icons">person_add</i></a></div>
         <div class="navbarbtn"><a href="login.html" class="waves-effect waves-light btn grey"><i
                     class="large material-icons">account_box</i></a></div>
     </div>
-
 
     <div id="contenitore">
         <div class="flex">
@@ -36,6 +36,7 @@
             <div class="cerchio" style="background-color: orange; margin-top: 30px;"></div>
             <div class="cerchio" style="background-color: orange; margin-top: 30px;"></div>
         </div>
+        <br><br>
 
         <div class="flex" style="justify-content: space-between">
             <div class="rgb" style="margin-left: 350px">R</div>
@@ -45,9 +46,16 @@
         </div>
 
         <div class="flex" style="justify-content: space-between">
-            <blockquote style="margin-left: 350px">... %</blockquote>
-            <blockquote>... %</blockquote>
-            <blockquote>... %</blockquote>
+            <blockquote style="margin-left: 350px"><input type="number" placeholder="Set red value"></blockquote>
+            <blockquote><input type="number" placeholder="Set green value"></blockquote>
+            <blockquote><input type="number" placeholder="Set blue value"></blockquote>
+            <div></div>
+        </div>
+
+
+        <div class="flex" style="justify-content: space-between">
+            <input type="submit" value="Invia" class="btn waves-effect waves-light red btn-large"
+                style="margin:auto; width: 350px; font-size: 250%; font-family: 'Bangers', cursive;">
             <div></div>
         </div>
     </div>
